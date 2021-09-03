@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -144,3 +144,78 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My css */
+
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* boxes/color */
+
+.container .middle-content #box-one{
+    background-color: teal;
+}
+
+.container .middle-content #box-two{
+    background-color: gold;
+}
+
+.container .middle-content #box-three{
+    background-color: cadetblue;
+}
+
+.container .middle-content #box-four{
+    background-color: coral;
+}
+
+.container .middle-content #box-five{
+    background-color: crimson;
+}
+
+.container .middle-content #box-six{
+    background-color: forestgreen;
+}
+
+.container .middle-content #box-seven{
+    background-color: darkorchid;
+}
+
+.container .middle-content #box-eight{
+    background-color: hotpink;
+}
+
+.container .middle-content #box-nine{
+    background-color: indigo;
+}
+
+.container .middle-content #box-ten{
+    background-color: dodgerblue;
+}
+
+/* boxes/color */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
