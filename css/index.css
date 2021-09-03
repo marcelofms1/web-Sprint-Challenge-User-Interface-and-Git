@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -45,10 +45,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 html, body {
@@ -144,3 +140,157 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* body */
+
+
+.container-about-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ .images-1, .images-2{
+     display:flex;
+     justify-content: center;
+     width:80%;
+ }
+
+
+ .pictures{
+     display: flex;
+     flex-direction: column;
+     width:30%;
+     padding:20px;
+     margin:15px;
+     border-bottom: 1px dashed;
+
+ }
+
+.links button{
+    display:flex;
+    justify-content: flex-start;
+    border:none;
+}
+
+button{
+    width:26%;
+    height:35px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius:10px;
+    font-size: 15px;
+    margin:15px;
+}
+
+
+
+/* info */
+
+
+
+.container-about-page #info{
+    border-bottom: 1px dashed;
+    padding:2%;
+    width:50%;
+}
+
+/* info */
+
+
+/* header */
+
+nav ul{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-end;
+    width:50%;
+}
+
+nav ul li{
+    flex:auto;
+    text-align: center;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding:2%;
+}
+
+
+header-2{
+    display: flex;
+    justify-content: center;
+    padding-bottom:2%;
+}
+
+/* header */
+
+
+
+/* boxes/color */
+
+.container .middle-content #box-one{
+    background-color: teal;
+}
+
+.container .middle-content #box-two{
+    background-color: gold;
+}
+
+.container .middle-content #box-three{
+    background-color: cadetblue;
+}
+
+.container .middle-content #box-four{
+    background-color: coral;
+}
+
+.container .middle-content #box-five{
+    background-color: crimson;
+}
+
+.container .middle-content #box-six{
+    background-color: forestgreen;
+}
+
+.container .middle-content #box-seven{
+    background-color: darkorchid;
+}
+
+.container .middle-content #box-eight{
+    background-color: hotpink;
+}
+
+.container .middle-content #box-nine{
+    background-color: indigo;
+}
+
+.container .middle-content #box-ten{
+    background-color: dodgerblue;
+}
+
+/* boxes/color */
+
+
+/* footer */
+
+.bye{
+    display: flex;
+    flex-direction:column;
+    width:54%;
+    padding:1.5%;
+}
+
+
+
+
+
+
+
+
+
